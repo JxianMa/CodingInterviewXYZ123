@@ -1,0 +1,8 @@
+Questions Types Regarding Heap:
+1. Implement a min heap/max heap from an array(See the Heap implementation)
+2. Heap sort - Merge values from different input sources and sort them in total
+3. Find Kth smallest/largest Problem - Usually has two solutions O(NlogN) and O(NlogK), these two impls use opposite types of heaps
+4. Comparator customization - Simple use one heap to sort input elements, but with complicated sorting conditions(Maybe more than two sorting requirements)
+5. Find Median of lists - Maintaining a max heap and a min heap - max heap to track lower part, min heap to track upper part, so we can always get a median
+6. Heap usage with greedy algorithm - Heap makes sure that we always get current minimum value or current maximum value, so it's a good data structure for greedy algorithm
+
